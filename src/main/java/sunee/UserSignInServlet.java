@@ -1,4 +1,4 @@
-package Expenseservlet;
+package sunee;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class ExpenseServlet
+ * Servlet implementation class UserSignInServlet
  */
-@WebServlet("/ExpenseServlet")
-public class ExpenseServlet extends HttpServlet {
+@WebServlet("/UserSignInServlet")
+public class UserSignInServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
     /**
      * Default constructor. 
      */
-    public ExpenseServlet() {
+    public UserSignInServlet() {
         // TODO Auto-generated constructor stub
     }
 
